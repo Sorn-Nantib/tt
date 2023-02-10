@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/design_default_color_on_primary"
+    tools:context=".NewUIActivity">
+
+  <ImageView
+      android:id="@+id/image_movie_detail"
+      android:layout_width="192dp"
+      android:layout_height="199dp"
+      android:layout_marginTop="4dp"
+      android:layout_marginEnd="216dp"
+      android:contentDescription="@string/app_name"
+      android:scaleType="centerCrop"
+      android:src="@drawable/lov"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+  <TextView
+      android:id="@+id/userId"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="16dp"
+      android:text="date"
+      app:layout_constraintTop_toTopOf="parent"
+      tools:ignore="MissingConstraints"
+      tools:layout_editor_absoluteX="257dp" />
+
+  <TextView
+      android:id="@+id/title"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="sick "
+      android:textStyle="bold"
+      tools:ignore="MissingConstraints"
+      tools:layout_editor_absoluteX="250dp"
+      tools:layout_editor_absoluteY="57dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
